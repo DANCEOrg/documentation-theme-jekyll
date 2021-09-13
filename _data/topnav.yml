@@ -32,7 +32,7 @@ topnav_dropdowns:
           url: /p2_landing_page.html
     - title: Contribue
       folderitems:
-        - title: Jekyll Documentation Theme
-          url: /mydoc_introduction.html
+        - title: Educational File
+          url: /mydoc_educational.html
 
 # Copyright 2021 Google LLC
