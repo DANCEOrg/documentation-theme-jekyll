@@ -32,7 +32,9 @@ topnav_dropdowns:
           url: /p2_landing_page.html
     - title: Contribue
       folderitems:
-        - title: Educational File
+        - title: Educational File (Rename Me Later)
           url: /mydoc_educational.html
+        - title: Fuctional File (Rename Me Later)
+          url: /mydoc_functional.html
 
 # Copyright 2021 Google LLC
