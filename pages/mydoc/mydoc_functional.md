@@ -141,6 +141,7 @@ When satisfied with contributions add then to the site via git:
 
 ```bash
 git add .                           # add current folder
-git commit -m "<insert message>"  # save a snapshot of these files; there are other variations of commit 
+git commit -m "<insert message>"    # save a snapshot of these files; there are other variations of commit 
 git push                            # share your changes
+git status                          # confirm that branch is up to date 
 ```
