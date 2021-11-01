@@ -8,11 +8,23 @@ folder: mydoc
 # Website Setup (Contribution) Documentation
 ## Overview
 
-1. Installing Jeykll & Prerequisites on a Local Machine
+1. WSL Installation 
 
-2. Initializing the Site Repository
+2. Installing Jeykll & Prerequisites on a Local Machine
 
-## 1. Installing Jeykll on a Local Machine
+3. Initializing the Site Repository
+
+## 1. WSL Installation 
+
+### Microsoft WSL
+
+Windows Subsystem for Linux is required to run critical applications such as Jekyll and Ruby. 
+
+Instructions for from [Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install) are availble. 
+
+Take note of version. Systems on Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11 go through a steamlined process. Versions lower than Build 19041 require [manual] WSL initilazation and installation.  
+
+## 2. Installing Jeykll on a Local Machine
 
 *Note: In this tutorial, sudo apt was used rather than other utilities such as cat. This turorial was performed on Ubuntu 18.04 and 20.04*
 
@@ -114,7 +126,7 @@ Now that bundler is installed, it can be used to install jekyll with: `gem insta
 Once complete, confirm with: `jekyll -v` and it should return: `jekyll 4.2.0`
 
 
-## 2. Initializing the Source Repository
+## 3. Initializing the Source Repository
 
 ### Cloning the DANCEOrg Repo 
 https://github.com/DANCEOrg/site was created to hold and host the DANCEOrg website. 
